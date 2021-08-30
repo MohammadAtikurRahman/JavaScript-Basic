@@ -22,9 +22,9 @@ function vowelsAndConsonants(str) {
 
         var result1 = vowels.slice(start1,start2);
        
-   
+        let text1 = result1.toString();
       
-        console.log(result1);
+        console.log(text1);
         
 
       
@@ -36,7 +36,10 @@ function vowelsAndConsonants(str) {
         var result2 = consonants.slice(s, s2);
 
 
-        console.log(result2);
+        let text2 = result2.toString();
+
+        console.log(text2);
+
 
 
 
