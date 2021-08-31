@@ -3,10 +3,11 @@ function getSecondLargest(nums) {
 
     let lowestToHighest = nums.sort((a, b) => b - a);
 
-    let secondLargestValue = lowestToHighest.slice(1, 2)
+    let secondLargestValue = lowestToHighest.slice(2, 3)
 
     let finalResult = secondLargestValue.toString()
-   
+ 
+    console.log(lowestToHighest);
     
     console.log(finalResult);
 
@@ -17,5 +18,5 @@ function getSecondLargest(nums) {
 }
 
 
-var x = ['2', '3', '6','6','5','200','19'];
+var x = ['2', '3', '6','6','5'];
 getSecondLargest(x);
