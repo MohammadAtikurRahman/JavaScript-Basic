@@ -64,4 +64,31 @@ atik.addTwoNumber(10,20);
 
 
 
+seemi.factorialFind = function(nums){
+        var mult = 1;
+        for(var i = 1 ; i< nums ;  i++){
 
+              mult = mult + i;
+             
+
+
+        }
+         console.log(mult);
+}
+seemi.factorialFind(5);
+
+atikur = {
+
+    fullName: 'Md. Atikur Rahman',
+    age: 30,
+    address: 'Mohammadpur,Dhaka',
+    zipCode: 1207,
+    welcomeTxt: function(){
+        
+        console.log('Your Most Welcome!!');
+    }
+
+
+
+}
+atikur.welcomeTxt();
