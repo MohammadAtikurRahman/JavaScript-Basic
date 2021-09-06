@@ -134,6 +134,26 @@ var objectArray = {
 
 console.log(objectArray.name[0]);
 console.log(objectArray.age[0]);
+// array inside the object 
+
+
+var arrayInsideTheProject = [ 'cplusplus' ,'java','javascript','html',
+    {      
+        frontend: 'bootrsp',
+        established: 1992,
+        job: 'student'
+    },
+    'bangladesh', 'india'
+
+
+]
+
+console.log(arrayInsideTheProject);
+console.log(arrayInsideTheProject[4].job);
+
+
+
+
 
 
 
