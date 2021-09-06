@@ -6,15 +6,11 @@ function getSecondLargest(nums) {
     var maxmNumber= [];
     var secondMaxmNumber = [];
     maxmNumber = Math.max(...nums);
-    console.log("First Maxnumber " + maxmNumber);
+  //  console.log("First Maxnumber " + maxmNumber);
 
-
+    var demo = 9999;
 
     for (var i = 0; i < nums.length; i++) {
-
-       
-        
-     
 
         if (maxmNumber > nums[i]) {
 
@@ -23,20 +19,19 @@ function getSecondLargest(nums) {
             var b = secondLargest.split(',').map(function (item) {
                 return parseInt(item, 10);
             });
-          
+           // secondMaxmNumber = Math.max(...b);  
 
-         
-            
-           
+            secondMaxmNumber = b;
+          
+        
+
 
         }
-
-    
-
     }
-  secondMaxmNumber = Math.max(...b);
-  console.log("Second Maxnumber " +secondMaxmNumber);
 
+   console.log(secondMaxmNumber);
+
+   
     
 }
 
