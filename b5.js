@@ -77,7 +77,7 @@ seemi.factorialFind = function(nums){
 }
 seemi.factorialFind(5);
 
-atikur = {
+var atikur = {
 
     fullName: 'Md. Atikur Rahman',
     age: 30,
@@ -103,7 +103,7 @@ console.log('.......................................................');
 
 
 
-kayes = {
+var kayes = {
       
     fullName: 'kayes Rahman',
     age: 30,
@@ -123,6 +123,33 @@ console.log(kayes);
 for(item in kayes){
     console.log(item);
 }
+
+
+
+var objectArray = {
+    normal: 'normal item',
+    name : ['atik' , 'tarek' , 'anonna', 'seemi','nusrat'],
+    age: [30 , 30 ,25 , 30 , 29],
+}
+
+console.log(objectArray.name[0]);
+console.log(objectArray.age[0]);
+// array inside the object 
+
+
+var arrayInsideTheProject = [ 'cplusplus' ,'java','javascript','html',
+    {      
+        frontend: 'bootrsp',
+        established: 1992,
+        job: 'student'
+    },
+    'bangladesh', 'india'
+
+
+]
+
+console.log(arrayInsideTheProject);
+console.log(arrayInsideTheProject[4].job);
 
 
 
