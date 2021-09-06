@@ -12,9 +12,21 @@ function getSecondLargest(nums) {
 
     for (var i = 0; i < nums.length; i++) {
 
-     
-    }
+       if(maxmNumber > nums[i]){
 
+           // console.log("max number for compare" +maxmNumber);
+           // console.log("array number " +nums[i]) ;    
+
+             secondMaxmNumber = Math.max(...nums[i]);
+
+
+
+       }
+
+
+
+    }
+      console.log(secondMaxmNumber);
    
 
 
