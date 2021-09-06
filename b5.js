@@ -92,3 +92,44 @@ atikur = {
 
 }
 atikur.welcomeTxt();
+
+console.log(atikur);
+
+
+console.log('.......................................................');
+
+
+
+
+
+
+kayes = {
+      
+    fullName: 'kayes Rahman',
+    age: 30,
+    address: 'kazipara',
+    zipCode: 4555,
+    missTxt: function(){
+
+            console.log('Everything will missed you')
+
+    }
+
+
+}
+kayes.missTxt();
+console.log(kayes);
+// all item access in object  so we have to use the loop
+for(item in kayes){
+    console.log(item);
+}
+
+
+
+
+
+
+
+
+
+
