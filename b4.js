@@ -90,10 +90,51 @@ console.log("slice operation is happend here so let it ");
  // splice in the 1 then 1 from to all gone
  console.log(fruits);
 
- fruits.splice(1,6);
- cycle.splice(0,1);
+ fruits.splice(1,6);// 1 theke 6 bad kintu 0 thaktese r 7 thaktese
+ cycle.splice(1); // 0 theke 1 bad kintu 2 thaktese
  console.log(fruits);
  console.log(cycle);
+
+var newArr = [1, 2, 3, 4, 5, 6, 7, 8, 9, 0];
+var spliceArr = newArr.splice(0,8);
+
+console.log("after spliced version " +spliceArr);
+console.log("spliced value" +newArr);
+
+
+var a = job;
+var b = cycle;
+var c = food;
+
+console.log(a);
+console.log(b);
+console.log(c);
+
+
+
+
+
+// slice(2) samner duita bad
+//splice(2) theke sob bad samner dik theke
+// slice()
+
+const animals = ['ant', 'bison', 'camel', 'duck', 'elephant'];
+
+console.log(animals.slice(2));
+// expected output: Array ["camel", "duck", "elephant"] samner 0 , 1 index bad
+
+console.log(animals.slice(2, 4));
+// expected output: Array ["camel", "duck"]  0,1 index bad then 5 index er por theke bad
+
+console.log(animals.slice(1, 5));
+// expected output: Array ["bison", "camel", "duck", "elephant"] o index bad sudhu
+
+console.log(animals.slice(-2));
+// expected output: Array ["duck", "elephant"] sudhu last er dui index thakbe
+
+console.log(animals.slice(2, -1));
+// expected output: Array ["camel", "duck"]  last er ager tar index thakbe r samner dui index thakbe na
+
 
 
 
