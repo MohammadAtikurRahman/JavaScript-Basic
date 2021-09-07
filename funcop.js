@@ -97,3 +97,10 @@ friends();
 
 
 })(); 
+
+
+var summation = (function() {
+    
+    console.log('I have come to win');
+
+})();
