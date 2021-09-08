@@ -97,3 +97,18 @@ friends();
 
 
 })(); 
+
+
+var summation = (function() {
+    
+    console.log('I have come to win');
+
+})();
+
+var multi = (function (){
+
+    let a = 20;
+    let b =2 ;
+    let c = a * b;
+    console.log('Multiplications ' +c);
+})();
