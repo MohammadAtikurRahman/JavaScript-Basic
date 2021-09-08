@@ -28,3 +28,5 @@ var y=  map1.get('shadman');
 
 console.log("Y the value of " +y);
 console.log("the size of the map " +x);
+const numbers = [4, 9, 16, 25];
+const newArr = numbers.map(Math.sqrt)
