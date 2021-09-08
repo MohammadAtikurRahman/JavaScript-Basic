@@ -28,3 +28,12 @@ var y=  map1.get('shadman');
 
 console.log("Y the value of " +y);
 console.log("the size of the map " +x);
+const numbers = [4, 9, 16, 25];
+const newArr = numbers.map(Math.sqrt)
+function addition(num1,num2) {
+    
+   var num3= num1 + num2;
+   return num3;
+
+}
+addition(5,6);
