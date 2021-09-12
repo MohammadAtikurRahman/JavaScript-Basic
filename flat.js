@@ -3,8 +3,8 @@ const job = function () {
 }
 job();
 
-const love = function() {
-    
+const love = function () {
+
     console.log('love of my life');
 }
 love();
@@ -14,7 +14,7 @@ life();
 
 const like = (a) => {
 
-      console.log(a);
+    console.log(a);
 
 }
 like(100000);
