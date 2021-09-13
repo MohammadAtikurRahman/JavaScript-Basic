@@ -17,7 +17,7 @@ function getSecondLargest(nums) {
            // console.log("max number for compare" +maxmNumber);
            // console.log("array number " +nums[i]) ;    
 
-             secondMaxmNumber = Math.max(...nums[i]);
+             secondMaxmNumber = Math.max(nums[i]);
 
 
 
@@ -34,5 +34,5 @@ function getSecondLargest(nums) {
 }
 
 
-var x = ['1', '2', '34', '41', '510', '6'];
+var x = [1, 2, 34, 41, 510, 6];
 getSecondLargest(x);
