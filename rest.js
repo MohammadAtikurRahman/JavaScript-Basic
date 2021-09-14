@@ -6,3 +6,4 @@ function  moreArgu() {
   }
 }
 moreArgu('atik','tarek','anonna');
+// arrow function e kintu arguments kaj korbe na.. eita sudhu es5 er jonno
